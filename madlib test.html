@@ -1,5 +1,6 @@
 <html>
 <head>
+<title>cats</title>
 
 	<style>
 	
@@ -19,8 +20,9 @@
 	<button class="button1" onclick="">Back</button>
 </a>
 
-<img class="catImg" id="cat" style="position: absolute; left: 38%; top: 25%; pointer-events: none;" width=22% height=32% src="https://austin-isaman.github.io/madlibs_website/cats.webp">
+<img class="catImg" id="cat" style="position: absolute; left: 38%; top: 10%; pointer-events: none;" width=22% height=32% src="https://austin-isaman.github.io/madlibs_website/cats.webp">
 
+<iframe style="position: relative; text-align: center; left: 30%; padding-top:22%  " width="720" height="480" src="https://www.youtube.com/embed/nTasT5h0LEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <script>
 
@@ -29,26 +31,30 @@
 document.body.style.backgroundColor = "#c2c2c2";
 	
 
-var question1 = prompt("give me an adjective:");
-var question2 = prompt("give me a verb ending with ''ing'':");
-var question3 = prompt("give me a noun:");
-var question4 = prompt("give me a silly word:");
-var question5 = prompt("giveme an adjective:");
-var question6 = prompt("giveme another adjective:");
-var question7 = prompt("give me a noun:");
-var question8 = prompt("give me another noun:");
-var question9 = prompt("give me ANOTHER noun:");
-var question10 = prompt("give me an exclamation. ex. CRAZY!!!:");
-var question11 = prompt("give me a verd ending in ''s'':");
-var question12 = prompt("give me a noun:");
-var question13 = prompt("give me an adjective:");
-var question14 = prompt("give me a number:");
-var question15 = prompt("give me a adjective:");
-alert("your doing so good, just one more")
-var question16 = prompt("give me a plural noun:");
+var start = function () {
+
+	var question1 = prompt("give me an adjective:");
+	var question2 = prompt("give me a verb ending with ''ing'':");
+	var question3 = prompt("give me a noun:");
+	var question4 = prompt("give me a silly word:");
+	var question5 = prompt("giveme an adjective:");
+	var question6 = prompt("giveme another adjective:");
+	var question7 = prompt("give me a noun:");
+	var question8 = prompt("give me another noun:");
+	var question9 = prompt("give me ANOTHER noun:");
+	var question10 = prompt("give me an exclamation. ex. CRAZY!!!:");
+	var question11 = prompt("give me a verd ending in ''s'':");
+	var question12 = prompt("give me a noun:");
+	var question13 = prompt("give me an adjective:");
+	var question14 = prompt("give me a number:");
+	var question15 = prompt("give me a adjective:");
+	alert("your doing so good, just one more")
+	var question16 = prompt("give me a plural noun:");
 
 
+}
 
+setTimeout(start, 10);
 
 //This is the story
 alert("cat lover #1: have you seen the " + question1 + " video on youtube of the cats " + question2 + " a/an " + question3 + "?");
